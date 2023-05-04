@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.executables = gem.files.grep(%r{^bin/}).map { |f| File.basename(f) }
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "stripe", "> 5"
+  gem.add_dependency "stripe", "> 6", "< 7"
   gem.add_dependency "multi_json", "~> 1.0"
   gem.add_dependency "dante", ">= 0.2.0"
 
